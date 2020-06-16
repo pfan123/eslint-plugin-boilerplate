@@ -39,3 +39,5 @@ module.exports = {
 [Eslint Rules](https://eslint.org/docs/rules/)
 
 [自定义 Eslint 开发](https://github.com/pfan123/Articles/issues/70)
+
+[eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
