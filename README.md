@@ -27,7 +27,7 @@ yarn link "eslint-plugin-boilerplate"
 ```js
 module.exports = {
   "rules": {
-     // "boilerplate/no-avoid-name": ["error"]
+     // "boilerplate/no-avoid-name": ["error", "always"]
     "boilerplate/no-avoid-name": 2
   },
   "plugins": ["boilerplate"]
