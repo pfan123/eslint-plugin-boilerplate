@@ -26,6 +26,7 @@ yarn link "eslint-plugin-boilerplate"
 
 ```js
 module.exports = {
+  "parser": 'vue-eslint-parser',
   "rules": {
      // "boilerplate/no-avoid-name": ["error", "always"]
     "boilerplate/no-avoid-name": 2
@@ -36,8 +37,8 @@ module.exports = {
 
 ## Other Resources
 
-[Eslint Rules](https://eslint.org/docs/rules/)
-
 [自定义 Eslint 开发](https://github.com/pfan123/Articles/issues/70)
+
+[Eslint Rules](https://eslint.org/docs/rules/)
 
 [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)

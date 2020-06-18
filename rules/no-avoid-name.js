@@ -40,15 +40,29 @@ module.exports = {
   create(context) {
     return {
       Identifier(node) {
-          if (node.name === "foo") {
-              context.report({
-                  node,
-                  messageId: "avoidName",
-                  data: {
-                      name: "foo",
-                  }
-              })
-          }
+        if (node.name === "foo") {
+            context.report({
+                node,
+                messageId: "avoidName",
+                data: {
+                    name: "foo",
+                }
+            })
+        }
+      },
+      ExportDefaultDeclaration(node){
+        context.report({
+          node,
+          message: "dddddddddd测试",
+        })
+      },
+      VElement(node){
+        if(node.name === "template"){
+          context.report({
+            node,
+            message: "template标签",
+          })
+        }
       }
     }
   }
