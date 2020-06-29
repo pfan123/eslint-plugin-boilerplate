@@ -41,4 +41,6 @@ module.exports = {
 
 [Eslint Rules](https://eslint.org/docs/rules/)
 
+[RuleTester](https://cn.eslint.org/docs/developer-guide/nodejs-api#ruletester)
+
 [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
