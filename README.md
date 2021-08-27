@@ -44,3 +44,6 @@ module.exports = {
 [RuleTester](https://cn.eslint.org/docs/developer-guide/nodejs-api#ruletester)
 
 [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
+
+[【AST篇】手把手教你写Eslint插件](https://juejin.cn/post/6844903961804161031)
+
